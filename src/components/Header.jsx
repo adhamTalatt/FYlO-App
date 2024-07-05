@@ -33,7 +33,7 @@ export default function Header() {
                     className={
                       "text-white opacity-[0.9] hover:opacity-[1] hover:underline transition-opacity duration-20 "
                     }
-                    href={`/${links.toLowerCase}`}
+                    href={`#${links.toLowerCase()}`}
                   >
                     {links}
                   </a>
