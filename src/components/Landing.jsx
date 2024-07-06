@@ -1,4 +1,4 @@
-import landingImage from "../assets/images/landing-img.png";
+import landingImage from "/public/images/landing-img.png";
 export default function Landing() {
   return (
     <section className="bg-[#1c2230]">
@@ -6,7 +6,7 @@ export default function Landing() {
         <div className="element-center pt-[200px] pb-[30px] ">
           <div className="w-[750px] max-w-full">
             <img
-              src={landingImage}
+              src={"./images/landing-img.png"}
               alt="landing-img"
               className=" w-full h-fit"
             />
@@ -33,7 +33,7 @@ export default function Landing() {
       </div>
       <div className=" w-full h-[50px] md:h-[200px] ">
         <img
-          src="/src/assets/images/bg-curvy-desktop.svg"
+          src="./images/bg-curvy-desktop.svg"
           alt=""
           className=" w-full h-full"
         />

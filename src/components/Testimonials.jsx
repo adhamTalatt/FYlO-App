@@ -25,7 +25,7 @@ export default function Testimonials() {
     <section className="pb-[350px]">
       <div className=" container relative">
         <div className=" absolute left-[20px] md:left-0 top-[-35px] -z-10">
-          <img src="/src/assets/images/bg-quotes.png" alt="quotes" />
+          <img src="./images/bg-quotes.png" alt="quotes" />
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] mx-[20px] md:mx-0">
           {testData.map((items, index) => {

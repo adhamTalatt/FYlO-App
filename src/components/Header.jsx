@@ -22,7 +22,7 @@ export default function Header() {
     >
       <div className=" container  flex justify-between items-center  gap-[30px]  md:gap-0 flex-col  sm:flex-row ">
         <a href="/">
-          <img src="/src/assets/images/logo.svg" alt="logo-img" />
+          <img src="./images/logo.svg" alt="logo-img" />
         </a>
         <nav className="">
           <ul className="flex items-center gap-[50px]">
